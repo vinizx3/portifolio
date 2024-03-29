@@ -1,0 +1,155 @@
+body {
+    background-image: url(../img/istockphoto-1447087371-612x612-transformed\ \(1\).jpeg);
+    display: grid;
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+li {
+    list-style: none;
+    margin-right: 15%;
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+    cursor: pointer;
+}
+
+p {
+    color: rgb(152, 152, 152);
+}
+
+hr {
+    margin-top: 3%;
+    width: 70%;
+}
+
+h5 {
+    text-align: center;
+    color: #fff;
+}
+
+h4 {
+    color: #fff;
+}
+
+#cabeçalho {
+    background-color: rgb(45, 45, 45);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.titulo {
+    font-family: "Nanum Brush Script", cursive;
+    color: rgb(109, 109, 109);
+    margin-left: 25%;
+    font-size: 35px;
+}
+
+.titulo a:hover {
+    color: rgb(192, 51, 0);
+}
+
+.menu {
+    display: flex;
+    justify-content: right;
+    font-size: 130%;
+    margin-right: 10%;
+}
+
+.box a:hover {
+    color: rgb(192, 51, 0);
+}
+
+#conteúdo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+}
+
+.foto {
+    place-self: center;
+    width: 60%;
+}
+
+.titulo2,
+.titulo3 {
+    color: #fff;
+}
+
+.descrição {
+    margin-top: 7%;
+    margin-left: 7%;
+}
+
+.instagram a:hover {
+    color: rgb(192, 51, 0);
+}
+
+.botão {
+    background-color: rgb(192, 51, 0);
+    border: solid rgb(109, 109, 109);
+    border-radius: 40px;
+    padding: 2%;
+    margin-top: 4%;
+}
+
+.contato {
+    color: #fff;
+}
+
+.botão a:hover {
+    color: #000;
+}
+
+#seções {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.navegação {
+    display: flex;
+    text-wrap: nowrap;
+    margin-left: 35vh;
+    place-self: center;
+}
+
+.box2 a:hover {
+    color: rgb(192, 51, 0);
+}
+
+.hover a:hover {
+    color: rgb(192, 51, 0);
+}
+
+#contatos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(45, 45, 45);
+    text-wrap: nowrap;
+}
+
+.alinhamento {
+    place-self: center;
+}
+
+.texto {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgb(45, 45, 45);
+}
+
+.alinhamento2 {
+    text-align: center;
+}
+
+.rodape {
+    background-color: rgb(19, 19, 19);
+    text-align: center;
+}
